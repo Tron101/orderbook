@@ -10,7 +10,7 @@ interface HeaderProps {
 const Header: FunctionComponent<HeaderProps> = ({options}) => {
   return (
     <Container>
-      <h3>Order Book</h3>
+      <h3>Swiss T's Crypto Order Book</h3>
       <GroupingSelectBox options={options} />
     </Container>
   );
